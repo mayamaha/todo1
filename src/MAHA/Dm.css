@@ -1,0 +1,27 @@
+.fff {
+  position: relative;
+  background-color: transparent;
+  width: 100px;
+  height: 4rem;
+  border: 2px solid #27ae60;
+  cursor: pointer;
+  color: white;
+  border-radius: 5px;
+}
+.fff:before {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 4rem;
+  border-radius: 5px;
+  background: linear-gradient(45deg, #192a56, #27ae60);
+  z-index: -1;
+  top: -0.2rem;
+  left: -0.2rem;
+  transform: scaleX(0);
+  transform-origin: 100% 50%;
+  transition: 0.4s transform linear;
+}
+.fff:hover:before {
+  transform: scaleX(1);
+}

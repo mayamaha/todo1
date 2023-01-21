@@ -1,0 +1,29 @@
+.containerx{
+    height: 524px;
+  width: 1359px;
+  margin-left: 3px;
+  font-size: medium;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  margin-left: 4px;
+  background-image: url(../images/22.jfif);
+  background-color: white;
+  font-size: xx-large;
+}
+.App {
+    text-align: center;
+    background-color: white;
+    color: white;
+    background-image: linear-gradient(rgb(248, 248, 248), rgb(252, 252, 253));
+  }
+  .containerz{
+    color: white;
+    width: 10%;
+  
+  }
+  .er{
+    color: rgb(245, 11, 140);
+    font-size: 100px;
+    margin-top: 50px;
+  }

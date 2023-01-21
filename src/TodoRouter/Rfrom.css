@@ -1,0 +1,50 @@
+.App {
+  text-align: center;
+  background-color: rgb(174, 39, 207);
+
+  background-image: linear-gradient(rgb(214, 252, 45), rgb(22, 244, 10));
+}
+.wrb22{
+  background-image: linear-gradient(rgb(13, 236, 46), rgb(190, 235, 26));
+}
+
+
+
+.form-outer {
+  margin-left: 500px;
+  margin-top: 10px;
+  margin-bottom: 40px;
+  padding: 40px;
+  width: 500px;
+  height: 23rem;
+  align-content: center;
+  margin-left: 430px;
+  border-radius: 1em;
+  box-shadow: 0 0.188em 1.55em rgb(83, 84, 81);
+  background-image: linear-gradient(rgb(176, 13, 236), rgb(110, 17, 86));
+}
+.input-label {
+  margin-right: 24px;
+  justify-content: center;
+}
+form input {
+  margin: 10px;
+}
+.success-text {
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+.failure-text {
+  color: white;
+  padding: 20px;
+}
+.btn {
+  background-image: linear-gradient(
+    to right,
+    rgb(238, 11, 117),
+    rgb(10, 186, 244)
+  );
+  width: 2000px;
+  margin-top: 20px;
+}

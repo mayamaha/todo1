@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.wrappers {
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.wrappers h1 {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.wrappers p {
+  text-align: center;
+  margin-top: 7px;
+  font-weight: bold;
+}
+
+.wrappers .main {
+  display: flex;
+  margin-top: 20px;
+  align-items: center;
+}
+
+.wrappers .view-container .btn {
+  width: 100%;
+}
+
+.wrappers .view-container {
+  width: 100%;
+  background-color: #28f9e7;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.btnn {
+  color: red;
+  cursor: pointer;
+}
+
+tbody {
+  margin-top: 25px;
+}
